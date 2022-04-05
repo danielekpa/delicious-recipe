@@ -1,5 +1,5 @@
 import {GiKnifeFork} from "react-icons/gi";
-import {BrowserRouter, Link, NavLink} from "react-router-dom";
+import {BrowserRouter, Link} from "react-router-dom";
 import styled from "styled-components";
 import Category from "./components/Category";
 import Search from "./components/Search";
