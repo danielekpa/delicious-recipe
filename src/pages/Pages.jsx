@@ -15,10 +15,10 @@ function Pages() {
         key={location.pathname}
         basename="/delicious-recipe"
       >
-        <Route path="/" element={<Home />} />
-        <Route path="/cuisine/:type" element={<Cuisine />} />
-        <Route path="/searched/:search" element={<Searched />} />
-        <Route path="/recipe/:id" element={<RecipeDetails />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/cuisine/:type" element={<Cuisine />} />
+        <Route exact path="/searched/:search" element={<Searched />} />
+        <Route exact path="/recipe/:id" element={<RecipeDetails />} />
       </Routes>
     </AnimatePresence>
   );
