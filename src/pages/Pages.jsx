@@ -15,7 +15,7 @@ function Pages() {
         key={location.pathname}
         // basename="/delicious-recipe"
       >
-        <Route exact path="/delicious-recipe/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route exact path="/cuisine/:type" element={<Cuisine />} />
         <Route exact path="/searched/:search" element={<Searched />} />
         <Route exact path="/recipe/:id" element={<RecipeDetails />} />

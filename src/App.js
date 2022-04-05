@@ -8,7 +8,7 @@ import Pages from "./pages/Pages";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/delicious-recipe">
+      <BrowserRouter basename="/delicious-recipe/">
         <Nav>
           <GiKnifeFork />
           <Logo to={"/*"}>Favorite Recipe</Logo>
